@@ -3,7 +3,8 @@
 Work through Jot feedback: bug reports and change requests that people pinned to elements of the live app, with screenshots and recordings. Use when the user mentions Jot, feedback, a bug report, a pin or a comment id, or asks what is open, to fix reported issues, or to reply to reviewers.
 
 ```
-/plugin install jot --marketplace usejot/claude-plugins
+/plugin marketplace add usejot/claude-plugins
+/plugin install jot@usejot
 ```
 
 Then sign in once with `npx @usejot/cli login`, or paste an agent token when Claude Code asks.
