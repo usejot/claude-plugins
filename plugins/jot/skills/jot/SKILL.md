@@ -50,6 +50,10 @@ Ask in the thread with `post_reply`, leave the status as it is, and tell the use
 
 When one change fixes several comments, move them together with one `update_status` (`commentIds`) and post one `create_batch_note` (`comment_ids`, `message`) instead of a reply in every thread.
 
+## Several accounts
+
+Work and personal Jot accounts are profiles: with the `jot` CLI's server, `profiles` lists the ones on this machine, `use_profile` switches this session to another, and `connect` signs in to one more.
+
 ## Examples
 
 ### 1. A button that does nothing

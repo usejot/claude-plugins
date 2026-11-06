@@ -7,7 +7,7 @@ Work through Jot feedback: bug reports and change requests that people pinned to
 /plugin install jot@usejot
 ```
 
-Then sign in once with `npx @usejot/cli login`, or paste an agent token when Claude Code asks.
+Then ask Claude to connect Jot (it opens your browser), or paste an agent token when Claude Code asks.
 
 - `/jot:jot`: open feedback
 - `/jot:jot <id>`: fix one

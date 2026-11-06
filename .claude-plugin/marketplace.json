@@ -10,7 +10,7 @@
       "name": "jot",
       "source": "./plugins/jot",
       "description": "Work through Jot feedback: bug reports and change requests that people pinned to elements of the live app, with screenshots and recordings. Use when the user mentions Jot, feedback, a bug report, a pin or a comment id, or asks what is open, to fix reported issues, or to reply to reviewers.",
-      "version": "0.1.3"
+      "version": "0.1.4"
     }
   ]
 }
