@@ -1,0 +1,29 @@
+{
+  "name": "jot",
+  "displayName": "Jot",
+  "version": "0.1.1",
+  "description": "Work through Jot feedback: bug reports and change requests that people pinned to elements of the live app, with screenshots and recordings. Use when the user mentions Jot, feedback, a bug report, a pin or a comment id, or asks what is open, to fix reported issues, or to reply to reviewers.",
+  "author": {
+    "name": "Jot",
+    "url": "https://usejot.co"
+  },
+  "homepage": "https://docs.usejot.co/docs/ai/mcp",
+  "repository": "https://github.com/usejot/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "feedback",
+    "bug-reports",
+    "qa",
+    "mcp",
+    "jot"
+  ],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "Jot agent token",
+      "description": "Optional. A token from Settings → Agents in Jot. Leave it empty if you ran `jot login` on this machine.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}
