@@ -6,7 +6,7 @@ Work through Jot feedback: bug reports and change requests that people pinned to
 /plugin install jot --marketplace usejot/claude-plugins
 ```
 
-Then sign in once: `npx @usejot/cli login`, or paste an agent token when Claude Code asks.
+Then sign in once with `npx @usejot/cli login`, or paste an agent token when Claude Code asks.
 
 - `/jot:jot`: open feedback
 - `/jot:jot <id>`: fix one
